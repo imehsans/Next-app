@@ -1,0 +1,41 @@
+.container {
+}
+
+.imgContainer {
+    @apply w-full h-80 relative
+}
+
+.img {
+  object-fit: cover;
+  filter: grayscale(100%);
+}
+
+.imgText {
+    @apply absolute bottom-5 left-5 font-bold bg-[#53c28b] p-2 text-white 
+}
+
+.imgTitle {
+    @apply text-2xl
+}
+
+
+.textContainer {
+    @apply flex gap-[100px]
+}
+
+.title {
+    @apply text-3xl font-bold
+
+}
+
+.desc {
+    @apply text-xl font-light 
+}
+
+.item {
+    @apply flex flex-col flex-1 mt-14 gap-[30px] 
+}
+
+.desc {
+    @apply text-xl font-light text-justify 
+}

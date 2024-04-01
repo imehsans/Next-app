@@ -1,0 +1,19 @@
+.container { 
+    @apply h-[100px] flex justify-between items-center
+}
+
+.logo { 
+    @apply  font-bold text-xl
+}
+
+.links { 
+    @apply   flex items-center gap-8
+}
+
+.link { 
+    @apply   items-start
+}
+
+.logout { 
+    @apply  py-1 px-3 border-none bg-[#53c28b] text-white cursor-pointer rounded-md
+}

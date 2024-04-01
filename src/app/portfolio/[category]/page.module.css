@@ -1,0 +1,33 @@
+.container {
+}
+.catTitle {
+  @apply text-[#53c28b]
+}
+
+.item{
+  @apply flex mb-24 gap-14 mt-14
+}
+
+.item:nth-child(2n+1){
+  @apply flex-row-reverse
+}
+
+.imgContainer{
+  @apply flex-1 h-[500px] relative
+}
+
+.img{
+  @apply object-cover
+}
+
+.content{
+  @apply flex flex-col flex-1 gap-5 justify-center
+}
+
+.title{
+  @apply text-5xl  font-bold
+}
+
+.desc{
+  @apply text-xl
+}

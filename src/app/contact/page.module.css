@@ -1,0 +1,36 @@
+.container {
+}
+
+.title {
+    @apply pb-1 mb-24 text-6xl text-center font-bold
+}
+
+.content {
+    @apply flex items-center gap-[100px]
+}
+
+.imgContainer {
+    @apply  flex-1 h-[500px] relative
+}
+
+.image {
+    @apply object-contain
+}
+
+@keyframes move {
+  from {
+    transform: translateY(-15px);
+  }
+  to {
+    transform: translateY(0px) scale(1.03);
+  }
+}
+
+.form {
+    @apply flex flex-col flex-1 gap-5 
+}
+
+.input,
+.textArea {
+    @apply p-5 bg-transparent rounded-md outline-none text-[#bbb] border border-[#bbb] font-bold text-2xl
+}
